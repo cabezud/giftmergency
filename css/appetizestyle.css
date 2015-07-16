@@ -1,0 +1,94 @@
+/*The typographic scale is based on two LESS variables in variables.less: @baseFontSize and @baseLineHeight
+Use the @baseFontFamily, @baseFontSize, and @baseLineHeight attributes as our typographic base
+Set the global link color via @linkColor and apply link underlines only on :hover
+*/
+.brand img {
+	max-width: 180px;
+}
+a.brand {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.login-menu {
+	padding: 10px;
+}
+.dropdown-menu a {
+	color: gray;
+	display: block;
+	padding: 3px 15px;
+	clear: both;
+	text-align: center;
+}
+@media (max-width: 979px) {
+	.navbar-fixed-top {
+		margin-bottom: 0px;
+	}	
+}
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.headline {
+	color: white;
+	position: absolute;
+	top: 140px;
+	right: 100px;
+	padding: 25px;
+	text-shadow: 2px 2px black;
+}
+@media (max-width: 979px) {
+	.headline {
+		top: 30px;
+	}	
+}
+.section-striped .row-fluid {
+	box-shadow: 0px 10px 5px gray;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.section-striped .row-fluid div {
+	padding: 10px;
+}
+.section-striped * * img {
+	max-height: 150px;
+	margin-top: 30px;
+}
+/*
+.section-striped .row div {
+	margin: 10px;
+}
+.section-striped:nth-child(even) {
+	background-color: white;
+}
+.section-striped:nth-child(odd) {
+	background-color: white;
+}
+*/
+.swash {
+	font-family: 'Cherry Swash';
+	color: #ff6600;
+}
+.invisibleswash {
+	color: white;
+	text-shadow: 3px 3px 8px black;
+}
+.smally {
+	line-height: 1;
+	color: gray;
+}
+.foota {
+	background-color: dimgray;
+	color: white;
+}
+.foota div a img {
+	max-height: 30px;
+	display: block;
+	padding-bottom: 5px;
+}
+.foota * * a {
+	color: white;
+}
+.copyright {
+	text-align: center;
+	padding-top: 10px;
+}

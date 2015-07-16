@@ -1,0 +1,37 @@
+.span4 {
+	background-color: blue;
+	color: yellow;
+}
+.span8 {
+	color: purple;
+	background-color: orange;
+}
+.span9, .span12 {
+	background-color: red;
+}
+.span3, .span6 {
+	background-color: darkgray;
+}
+.container, .container-fluid {
+	background-color: lightblue;
+}
+.span2 {
+	background-color: pink;
+}
+.span10 {
+	background-color: gray;
+}
+p {
+	line-height: 0.9;
+}
+small {
+	line-height: .5;
+}
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.shadow-me {
+	box-shadow: 10px 10px 5px red;
+}
+/*The typographic scale is based on two LESS variables in variables.less: @baseFontSize and @baseLineHeight*/
